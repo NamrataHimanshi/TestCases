@@ -10,6 +10,12 @@ class DemoSearch():
         Search= driver.find_element(By.XPATH, "//input[@id='BE_flight_origin_city']")
         driver.execute_script("arguments[0],click(Search)")
         var1 = driver.find_element(By.XPATH, "//input[@id='BE_flight_origin_city']").Send_keys
+        
+        ####Adding few changes here#####
+            ####Adding few changes here#####
+                ####Adding few changes here#####
+                    ####Adding few changes here#####
+        
 
 ddmemoSearch=DemoSearch()
 DemoSearch.get_demo_search()
